@@ -3,6 +3,14 @@ public class Student {
     private String name;
     private int marks;
 
+
+    // Constructor
+    public Student(int id, String name, int marks) {
+        this.id = id;
+        this.name = name;
+        this.marks = marks;
+    }
+
     // Getters
     public int getId() {
         return id;

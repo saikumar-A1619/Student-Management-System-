@@ -16,7 +16,7 @@ public class StudentManagementSystem {
         System.out.println("Enter Student Marks: ");
         int marks = sc.nextInt();
 
-        Student student = new Student();
+        Student student = new Student(id, name, marks);
         students.add(student);
         System.out.println("Student added successfully.");
     }
